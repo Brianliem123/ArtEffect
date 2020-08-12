@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    tools:context=".Auth.login_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="95"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:alpha="220"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:weightSum="75"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="25">
+
+                <TextView
+                    android:id="@+id/brand_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold"
+                    android:text="Art Effect"
+                    android:textSize="25dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brand_name"
+                    android:padding="10dp">
+
+                    <EditText
+                        android:id="@+id/etEmailLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="Email"
+                        android:inputType="textPassword"
+                        android:padding="8dp"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/colorPrimaryDark" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:padding="10dp"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/etPasswordLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:hint="Password"
+                        android:inputType="textEmailAddress"
+                        android:padding="8dp"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/colorPrimaryDark" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"
+            android:textColor="#FFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_btn_log"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_color"
+            android:fontFamily="cursive"
+            android:text="OR"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnloginGmail"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="login with gmail"
+            android:background="@drawable/shape_btn_log"/>
+
+    </LinearLayout>
+
+</LinearLayout>
