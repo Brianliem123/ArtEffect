@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235127301697",
+    "firebase_url": "https://arteffect-eb5e0.firebaseio.com",
+    "project_id": "arteffect-eb5e0",
+    "storage_bucket": "arteffect-eb5e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235127301697:android:e51d8d14ed28cba10b08c0",
+        "android_client_info": {
+          "package_name": "com.fa.arteffect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235127301697-jcnsfs9b6vbatignbluuv8jnv587655r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fa.arteffect",
+            "certificate_hash": "b7c155dda5f4092e7f3a6bcd87d95c8c1e871e6d"
+          }
+        },
+        {
+          "client_id": "235127301697-mrkg69r8hqt5rpqg2npu0fvu1d5jpvf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmyXYrsBk7OH73-1sF0RZI1akAmaQ7Z5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235127301697-mrkg69r8hqt5rpqg2npu0fvu1d5jpvf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

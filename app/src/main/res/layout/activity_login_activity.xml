@@ -4,25 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_color"
+    android:background="@color/cream"
     tools:context=".Auth.login_activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="95"
-        android:orientation="vertical">
-        <LinearLayout
-            android:background="@drawable/background"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="45">
-
-        </LinearLayout>
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp">
 
         <LinearLayout
             android:alpha="220"
-
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="60"
@@ -32,7 +24,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_weight="25">
+                android:layout_weight="25"
+                android:layout_marginTop="100dp">
 
                 <TextView
                     android:id="@+id/brand_name"
@@ -40,8 +33,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="cursive"
+                    android:fontFamily="serif"
                     android:textStyle="bold"
                     android:text="Art Effect"
                     android:textSize="25dp" />
@@ -49,6 +41,7 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
                     android:layout_below="@+id/brand_name"
                     android:padding="10dp">
 
@@ -56,9 +49,7 @@
                         android:id="@+id/etEmailLogin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:hint="Email"
-                        android:inputType="textPassword"
                         android:padding="8dp"
                         android:textColor="@color/black_color"
                         android:textColorHint="@color/colorPrimaryDark" />
@@ -68,7 +59,7 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="100dp"
+                    android:layout_marginTop="130dp"
                     android:padding="10dp"
                     app:passwordToggleEnabled="true">
 
@@ -120,6 +111,19 @@
             android:layout_marginRight="10dp"
             android:text="login with gmail"
             android:background="@drawable/shape_btn_log"/>
+
+        <Button
+            android:id="@+id/btnregisterGmail"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Register"
+            android:background="@drawable/shape_btn_log"/>
+
+
 
     </LinearLayout>
 
